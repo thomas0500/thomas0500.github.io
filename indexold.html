@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere position="0 1.25 -5" radius="2" color="#EF2D5E"></a-sphere>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#68B5F9"></a-sky>
+      <a-box position="-1.7 1 -2.5" rotation="45 60 0" color="#FF0000"></a-box>
+      <a-box position="-1.7 2 -2" rotation="45 -60 0" color="#002BFF"></a-box>
+      <a-box position="0 0.5 -2.5" rotation="45 60 0" color="#002BFF"></a-box>
+      <a-box position="0 2 -2.3" rotation="45 -35 0" color="#FF0000"></a-box>
+      <a-box position="1.7 0.5 -2.9" rotation="45 -35 0" color="#FF0000"></a-box>
+      <a-box position="1.7 2 -2.9" rotation="45 60 0" color="#4CC3D9"></a-box>
+      <a-text value="Si tu regarde sa, tu est un poisson pourri"></a-text>
+      <audio src="Minecraft-Theme Song {Extended for 30 Minutes} (320  kbps).mp3" autoplay
+preload>
+</audio>
+      <a-scene>
+  <a-assets>
+    <a-asset-item id="tinker-obj" src="/path/to/tinker.obj"></a-asset-item>
+    <a-asset-item id="obj-mtl" src="/path/to/obj.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-entity obj-model="obj: #tinker-obj; mtl: #obj-mtl"></a-entity>
+</a-scene>
+      </audio>
+    </a-scene>
+    </a-scene>
+    </a-scene>
+  </body>
+</html>
