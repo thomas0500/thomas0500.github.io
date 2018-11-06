@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title></title>
+	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </head>
 <body>
 <a-assets>
      <a-asset-item id="cell-obj" src="cell.obj"></a-asset-item> 
      <a-asset-item id="cell-mtl" src="cell.mtl"></a-asset-item> 
 </a-assets>
-
+<a-scene>
 <a-entity obj-model="obj: #cell-obj; mtl: #cell-mtl" scale="1 1 1" rotation="90 0 0"></a-entity>
 
 <a-text value="test"></a-text>
+</a-scene>
 </body>
 </html>
