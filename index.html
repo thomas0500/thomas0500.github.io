@@ -17,13 +17,8 @@
 <a-text value="Def: It is in the center of the cell and the computer of the cell. It is what controls the cell and what keeps your DNA." postition="-36.451 7.333 -6.318" scale="5 5 5" visible="true"></a-text>
 <a-entity position="-48.513 1.010 7.828">
 	<a-camera></a-camera>
-</a-entity>
-</a-scene>
-</body>
-<script type="text/javascript">
-	document.querySelector('a-text').addEventListener('collide', function (evt) {
-  console.log('This A-Frame entity collided with another entity!');
-});
-
+<a-camera>
+<a-cursor></a-cursor>
+</a-camera>
 </script>
 </html>
