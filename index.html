@@ -19,11 +19,17 @@
 
 <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 
-<a-text id="helloText" visible = "false" value="Def: It is in the center of the cell and the computer of the cell. It is what controls the cell and what keeps your DNA." position="-31.028 2.593 4.666" color="#000" scale="1.5 1.5 1.5"></a-text>
+<a-text id="Nucleus_Def" visible = "false" value="Def: It is in the center of the cell and the computer of the cell. It is what controls the cell and what keeps your DNA." position="-31.028 2.593 4.666" color="#000" scale="1.5 1.5 1.5"></a-text>
 
 <a-box position="-30.690 1.218 3.662" rotation="0 90 30" scale="" color="#F44336"
-event-set__enter="_event: mouseenter; _target: #helloText; visible: true"
-event-set__leave="_event: mouseleave; _target: #helloText; visible: false">
+event-set__enter="_event: mouseenter; _target: #Nucleus_Def; visible: true"
+event-set__leave="_event: mouseleave; _target: #Nucleus_Def; visible: false">
+
+<a-text id="NuclearMembrane_Def" visible = "false" value="Def: it is what protcts the iside of the nucleus and what keeps evrything in of it or out of it." position="-31.028 2.593 4.666" color="#000" scale="1.5 1.5 1.5"></a-text>
+
+<a-box position="-30.690 1.218 3.662" rotation="0 90 30" scale="" color="#F44336"
+event-set__enter="_event: mouseenter; _target: #NuclearMembrane_Def; visible: true"
+event-set__leave="_event: mouseleave; _target: #NuclearMembrane_Def; visible: false">
 
 </a-box>
 </a-text>
